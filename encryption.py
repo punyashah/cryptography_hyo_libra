@@ -1,4 +1,4 @@
-def encrypt(text,shift):
+def caesarEncrypt(text,shift):
     output_str = ""
 
     for char in text:
